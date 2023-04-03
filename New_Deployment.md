@@ -19,3 +19,14 @@ Next is the build-image section where the docker image is built and pushed to th
 
 For the environmental variables, we used Context on CircleCI. So. instead of adding new env for every new projects, we store the needed envs in the CircleCI context and simply refrence or call it whenever it is needed for any projects.
 
+
+Note: the Context name is specified under workflow section
+
+
+The slack/status section sends a notification informing the status of the job. That is, if the job fails or is successful, it sends a notification.
+
+Next stage is the deploy step. The entire deployment takes place at this stage. We made use of helm chart.
+
+Note: Help is a package manager for kubernetes just like we have apt, yarn etc. Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application.
+
+Next is to deploy to Kubernetes uaing helm chart.
