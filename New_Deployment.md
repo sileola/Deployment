@@ -35,4 +35,4 @@ The publish.sh file helps to publish the content of the helm file
 
 
 
-NOTE: Always remeber to add the Github User Key to CircleCI to enable access to the project.
+NOTE: Always remember to add the Github User Key to CircleCI to enable access to the project.
