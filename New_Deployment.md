@@ -30,3 +30,9 @@ Next stage is the deploy step. The entire deployment takes place at this stage. 
 Note: Help is a package manager for kubernetes just like we have apt, yarn etc. Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application.
 
 Next is to deploy to Kubernetes uaing helm chart.
+
+The publish.sh file helps to publish the content of the helm file
+
+
+
+NOTE: Always remeber to add the Github User Key to CircleCI to enable access to the project.
